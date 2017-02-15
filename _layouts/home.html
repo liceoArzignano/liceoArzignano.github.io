@@ -1,0 +1,68 @@
+---
+layout: default
+---
+
+<link rel="stylesheet" href="{{ "/css/home.css" | prepend: site.baseurl }}">
+
+<article class="c-article">
+    <header class="c-header c-article__header">
+        <div class="u-container">
+            <h1 class="c-header__title">{{ page.title }}</h1>
+        </div>
+    </header>
+
+    <img src="{{ site.url }}/img/header.png" alt="Hero">
+    <div class="c-article__main" id="main_article">
+        {{ content }}
+
+        <!-- Voti -->
+        <div class="group">
+            <div class="left">
+                <img src="{{ site.url }}/img/home_voti.png">
+            </div>
+            <div class="right" id="row_text">
+                <h2>Voti</h2>
+                <p>Archivia tutti i tuoi voti e visualizza le medie in tempo reale</p>
+            </div>
+        </div>
+
+        <!-- Eventi -->
+        <div class="group">
+            <div class="left">
+                <img src="{{ site.url }}/img/home_eventi.png">
+            </div>
+            <div class="right" id="row_text">
+                <h2>Eventi</h2>
+                <p>Annota date di verifiche, compiti per casa e molto altro nel tuo nuovo diario virtuale</p>
+            </div>
+        </div>
+
+        <!-- Circolari -->
+        <div class="group">
+            <div class="left">
+                <img src="{{ site.url }}/img/home_news.png">
+            </div>
+            <div class="right" id="row_text">
+                <h2>Notizie</h2>
+                <p>Ricevi le circolari direttamente sul tuo dispositivo in tempo reale senza andare a cercarle ogni volta sul sito</p>
+            </div>
+        </div>
+
+        <!-- Safe -->
+        <div class="group">
+            <div class="left">
+                <img src="{{ site.url }}/img/home_safe.png">
+            </div>
+            <div class="right" id="row_text">
+                <h2>Safe</h2>
+                <p>Dimentichi anche tu le password della scuola? Ora potrai salvarle nell'app in modo sicuro e potrai ritrovarle facilmente ogni volta che vorrai</p>
+            </div>
+        </div>
+
+        <!-- Download -->
+        <h1>Scarica ora</h1>
+        <a href="https://play.google.com/store/apps/details?id=it.liceoarzignano.bold&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
+            <img alt="Disponibile su Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/it_badge_web_generic.png" class="play_badge">
+        </a>
+    </div>
+</article>

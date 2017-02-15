@@ -1,0 +1,11 @@
+<nav class="c-navigation {% if site.fixedNav == 'true' %}is-fixed{% endif %}">
+  <div class="c-navigation__container u-container">
+    <a class="c-navigation__item {% if page.url == '/' %}is-active{% endif %}" href="{{ "/" | prepend: site.baseurl }}">Home</a>
+    <a class="c-navigation__item {% if page.url == '/guida/' %}is-active{% endif %}" href="{{ "/guida/" | prepend: site.baseurl }}">Guida</a>
+    <!--a class="c-navigation__item {% if page.url == '/backup/' %}is-active{% endif %}" href="{{ "/backup/" | prepend: site.baseurl }}">Backup</a>
+    <a class="c-navigation__item {% if page.url == '/eventi/' %}is-active{% endif %}" href="{{ "/eventi/" | prepend: site.baseurl }}">Eventi</a>
+    <a class="c-navigation__item {% if page.url == '/notizie/' %}is-active{% endif %}" href="{{ "/notizie/" | prepend: site.baseurl }}">Notizie</a>
+    <a class="c-navigation__item {% if page.url == '/safe/' %}is-active{% endif %}" href="{{ "/safe/" | prepend: site.baseurl }}">Safe</a>
+    <a class="c-navigation__item {% if page.url == '/voti/' %}is-active{% endif %}" href="{{ "/voti/" | prepend: site.baseurl }}">Voti</a-->
+  </div>
+</nav>

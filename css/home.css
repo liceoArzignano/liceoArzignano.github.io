@@ -1,0 +1,53 @@
+.left {
+    float: left;
+    width: 50%;
+    display: inline-block;
+}
+
+.right {
+    float: right;
+    width: 50%;
+    display: inline-block;
+}
+
+.group {
+    padding: 6rem 0;
+}
+
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.play_badge {
+    max-width: 60%;
+    display: block;
+    margin: auto;
+}
+
+@media screen and (max-width: 480px) {
+    .left, .right {
+        float: none;
+        width: auto;
+    }
+
+    .play_badge {
+        max-width: 90%;
+        display: block;
+        margin: auto;
+    }
+}
+
+#main_article {
+    display: grid;
+    vertical-align: middle;
+    padding: 7.5rem 1rem;
+}
+
+#row_text {
+    transform: translateY(25%);
+}
+
+#play_badge {
+}
