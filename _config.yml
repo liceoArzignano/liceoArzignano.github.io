@@ -14,16 +14,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: App Liceo Arzignano
+owner: Liceo Arzignano
 email: appliceoarzignano@gmail.com
-description: L'app ufficiale del Liceo L. da Vinci di Arzignano
+description: App del Liceo L. da Vinci di Arzignano
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://liceoarzignano.github.io" # the base hostname & protocol for your site
 
 # Social
 githubUsername: liceoArzignano
-twitterUsername:
-dribbbleUsername:
-codepenUsername:
+facebookUsername: liceoarzignano
+instagramUsername: liceoarzignano
+webSite: http://www.liceoarzignano.it
 
 # Build settings
 markdown: kramdown

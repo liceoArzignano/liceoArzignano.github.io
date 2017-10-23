@@ -1,6 +1,5 @@
 .left {
     float: left;
-    width: 50%;
     display: inline-block;
 }
 
@@ -18,6 +17,38 @@
     content: "";
     display: table;
     clear: both;
+}
+
+.svg_item {
+    width: 172px;
+    height: 172px;
+}
+
+.item_box {
+    border: #f5f5f5;
+    border-width: 2px;
+    border-style: solid;
+    padding: 8px;
+    border-radius: 8px;
+    background: #f5f5f5;
+}
+
+.item_box:hover {
+    cursor: pointer;
+}
+
+.slideshow {
+    max-width: 980px;
+    margin: auto;
+    position: relative;
+}
+
+.slideshow:hover {
+    display: block;
+}
+
+.slideshow_img {
+    width: 100%;
 }
 
 .play_badge {
@@ -43,6 +74,7 @@
     display: grid;
     vertical-align: middle;
     padding: 7.5rem 1rem;
+    
 }
 
 #row_text {

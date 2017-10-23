@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+<link rel="stylesheet" href="{{ "/css/home.css" | prepend: site.baseurl }}">
+
+<article class="c-article">
+    <header class="c-header c-article__header">
+        <div class="u-container">
+            <h1 class="c-header__title">{{ page.title }}</h1>
+        </div>
+    </header>
+
+    <div class="c-article__main">
+        {{ content }}
+        <center>
+            <a href="https://github.com/liceoarzignano">
+                <img src="{{ site.url }}/img/github_logo.png" class="play_badge">
+            </a>
+        </center>
+
+        <div class="item_box" onclick="window.location='https://github.com/liceoArzignano/app_bold'">
+            <h2>App</h2>
+            <p>Applicazione android</p>
+        </div>
+
+        <div class="item_box" onclick="window.location='https://github.com/liceoArzignano/snake_bold'">
+            <h2>Snake</h2>
+            <p>Script invio notifiche notizie (python)</p>
+        </div>
+
+        <div class="item_box" onclick="window.location='https://github.com/liceoArzignano/sleeper_bold'">
+            <h2>Sleeper</h2>
+            <p>Programma invio notifiche con interfaccia grafica opzionale (Java)</p>
+        </div>
+
+        <div class="item_box" onclick="window.location='https://github.com/liceoArzignano/remote_bold'">
+            <h2>Remote</h2>
+            <p>Integrazione web per invio notifiche (php)</p>
+        </div>
+
+        <div class="item_box" onclick="window.location='https://github.com/liceoArzignano/vote'">
+            <h2>Vote</h2>
+            <p>Programma valutazione docenti</p>
+        </div>
+    </div>
+</article>
