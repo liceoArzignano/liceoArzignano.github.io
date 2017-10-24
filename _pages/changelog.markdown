@@ -4,6 +4,76 @@ title: Changelog
 permalink: /changelog/
 ---
 
+## 1.0.18
+* 4aa238e Home: remove unused RemoteConfig
+* ef3ada0 Marks, Events, News: use autoincrement for id
+* 7708d30 Bold: lint cleanup
+* be0f72d Backup: support restoring backups created with different db versions
+* 1f313e8 Editor: animate the right editText for marks
+* d94e6d4 Safe: fix fingerprint management for older devices
+* 9762a8a Settings: show right category color for api19- device
+* e96a88a Editor: improve date picker
+* 7c7c4bd Editor: do not ask to save changes if nothing has changed
+* a42baa0 Editor: do not show empty tags
+* cbe2a96 Editor: properly hide the tags layout when editing marks
+* 863a5b6 Res: adaptive icon
+* e1a4f5d Home: expose important suggestions
+* 64eb13e Res: improve home card strings
+* 737b07d Bold: update deps
+* 52e9ff7 Safe: support login with fingerprint
+* fa06282 Marks, Events, News: optimize search queries
+* 4ae05b2 Events: add tags
+* dd2a14d Bold: don't use kotlin stdlib, legacy devices don't work with it
+* 53b782e Home: update cards content
+* 07e4ea9 Events, News: make header dividers more informative
+* 48c87ad Mark: update subjects recyclerview's items style
+* ec71bf4 Marks, Events, News: polish enter/exit transitions
+* 72f26ee Build: update kotlin
+* f6888c9 Intro: fixes for legacy devices
+* 1edac5d Bold: bump to 1.0.18
+* ba61d52 Safe: destroy the asyncTasks when activity gets destroyed
+* 8f6a535 Home: hide logo view on legacy devices
+* 55e7fa4 Res: show emoji only on api21+
+* ce45bdc Bold: redesign
+* 9038d8c Safe: update mod revision
+* ee21e29 Time: DAY_OF_YEAR != DAY_OF_MONTH
+* a796e95 Mark: sync item ui with news and events
+* c1d672c Safe: run encryption operations in an async task
+* bb0a58d Events: add emoji to event categories
+* 8877c66 Res: tune colors
+* 2c2b92d Bold: hello kotlin
+* 46bf201 Home: add shortcut cards
+* d12e8a6 Bold: lint cleanup
+* f105f1a Bold: refactor -2 classes to normal names
+* 61d3ac5 Bold: remove Realm
+* e56aea6 Bold: support api26
+* 1a21297 Res: improve strings
+* ff7823e Marks: fix quarter detection
+* 3e0019e Marks, Events, News: migration to SQL
+* 8d72602 Home: cleanup
+* b326d20 Marks: improve quarter detection logic
+* 9095dee Backup: add new year helper
+* 97bf39b Bold: bump deps
+* 8213500 Res: fix statusbar color on api21+
+* 26d0fc6 Home: fix remoteconfig cache expire time for prod
+* 51624ec Home: animate transition on card click
+* bc7b8e9 Bold: Remove .idea project files
+* fe1e063 Feedback: remove
+* ba49d53 Res: commonize toolbar layouts
+* 90b935b Marks: circular progress bar: draw a background circle
+* 76c5ee3 Update gradle plugin
+* 1829380 OnBoarding: show toast hint for long press items actions
+* 875d5bf Bold: lint cleanup
+* 4ffdfe1 Backup, Safe: match feedback help style
+* 71e087d Backup: display a progress dialog while backing up
+* 879721f Res: don't make the pencil run away
+* db6af2b Build: update deps
+* 63a459c Safe_mod: update revision
+* 9bc9f4d Home: animate only once
+* c9e6e90 Home: rearrange drawer list
+* 3d89cf0 Update submodule
+
+
 ## 1.0.17
 
 * f141562 Bold: bump to 1.0.17

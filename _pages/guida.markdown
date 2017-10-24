@@ -1,5 +1,5 @@
 ---
-layout: oss
+layout: guida
 title: Guida
 permalink: /guida/
 ---
